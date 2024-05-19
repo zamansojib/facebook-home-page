@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600&family=Merriweather&family=Montserrat:wght@500&family=Noto+Sans+Siddham&family=Roboto:ital,wght@1,700&family=Sassy+Frass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' sans-serif;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.login-page{
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.login-text{
+    margin-bottom: 90px;
+}
+
+.login-text h1{
+    font-size: 64px;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.login-text p{
+    font-size: 28px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.login-form{
+    max-width: 396px;
+    height: 456px;
+    padding: 10px 0 24px 0;
+}
+
+.login-form form{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     background-color: #fff;
+     margin: 0;
+     width: 100%;
+     padding-top: 24px;
+     padding-bottom: 10px;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+                 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-form form input{
+    height: 64px;
+    width: 364px;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 14px 16px;
+}
+
+.login-form form input:focus{
+    outline: none;
+    border-color: #1877f2;
+}
+
+::placeholder{
+    color: #d6d4d4;
+    font-size: 1.063rem;
+    font-weight: 300;
+}
+
+.submit{
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: 0.2s ease-in;
+}
+
+.login-button{
+    width: 364px;
+    font-size: 1.25rem;
+    background: #1877f2;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 16px;
+}
+
+.login-button:hover{
+    background: #0d65d9;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.forgot-link{
+    color: #1877f2;
+    font-size: 14px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 16px;
+}
+
+.create-button{
+    background-color: #42b72a;
+    font-size: 1.063rem;
+    padding: 15px 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.create-button:hover{
+    background-color: #3ba626;
+}
+
+.create-page{
+    text-align: center;
+    padding-top: 28px;
+}
+
+.create-page-link{
+    color: #000;
+    font-weight: 700;
+}
